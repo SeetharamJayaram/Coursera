@@ -1,0 +1,18 @@
+This is the document to describe the code which is used to create a tidy data set from given data sets.
+Site from where data is obtained:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones	
+Data for the project:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Script :
+Run_analysis.R
+The script performs following functions
+•	It download and unzip the file available from the file location
+•	See the list of available files
+•	Get activity, subject and features data into variables 
+•	Do the data concatenation of both training and test variables
+•	Give the variable names
+•	Get the subset data based on required measurements mean and standard deviation
+•	Create a final dataset tidy data set and write it to current directory
+
+
+
